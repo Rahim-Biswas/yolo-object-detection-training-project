@@ -50,7 +50,7 @@ S3_BUCKET = os.getenv("AWS_BUCKET_NAME")
 S3_DATASET_PREFIX = "model_training/object_detection/terrestrial_components/training_data/phase_01/"
 
 # Where to put the dataset locally (will be created if missing)
-LOCAL_DATASET_DIR = r"D:\Training\datasets\terrestrial_components_phase_01"
+LOCAL_DATASET_DIR = r"/home/ubuntu/yolo_model_training/yolo-object-detection-training-project/data/terrestrial_components/phase_1"
 
 # How many parallel download threads to use
 MAX_WORKERS = 16
