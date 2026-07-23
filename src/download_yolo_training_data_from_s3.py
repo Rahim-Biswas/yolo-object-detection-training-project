@@ -47,10 +47,10 @@ AWS_REGION = os.getenv("AWS_REGION", "ap-south-1")
 S3_BUCKET = os.getenv("AWS_BUCKET_NAME")
 
 # Must match S3_OUTPUT_PREFIX from the upload script
-S3_DATASET_PREFIX = "model_training/object_detection/terrestrial_components/training_data/phase_01/"
+S3_DATASET_PREFIX = "model_training/object_detection/terrestrial_components/training_data/phase_01_1/"
 
 # Where to put the dataset locally (will be created if missing)
-LOCAL_DATASET_DIR = r"/home/ubuntu/yolo_model_training/yolo-object-detection-training-project/data/terrestrial_components/phase_1"
+LOCAL_DATASET_DIR = r"/home/ubuntu/yolo_model_training/yolo-object-detection-training-project/data/terrestrial_components/phase_01_1"
 
 # How many parallel download threads to use
 MAX_WORKERS = 16
